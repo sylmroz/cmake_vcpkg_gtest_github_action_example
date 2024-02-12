@@ -1,7 +1,5 @@
 #output directory
 out
-#do not include submodules
-external
 #ignore visual studio folder
 .vs
 #ignore temporary Testing folder
