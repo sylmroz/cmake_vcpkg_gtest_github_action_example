@@ -9,8 +9,10 @@ on:
 permissions:
   contents: write  
 
+# this is needed to bootstrap vcpkg
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this is needed fot bootstrap vcpkg
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  VCPKG_FEATURE_FLAGS: dependencygraph
 
 jobs:
   build:

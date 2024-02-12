@@ -19,7 +19,7 @@ all-in-one example that simplify your workflow. :rocket:
 
 2. **Bootstrap vcpkg** by navigating to the repository directory:
 ```
-cd github_action_gtest_vcpkg
+cd cmake_vcpkg_gtest_github_action_example
 ./external/vcpkg/bootstrap-vcpkg.sh # for non-Windows system
 
 ./external/vcpkg/bootstrap-vcpkg.bat # for Windows
